@@ -76,7 +76,7 @@
 
         android:layout_marginBottom="93dp"
         android:layout_marginTop="61dp"
-        android:text="Its Seems Like your are here for the First Time"
+        android:text="Its Seems Like you are here for the First Time"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="25sp"
@@ -85,5 +85,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="61dp" />
+
+
 
 </android.support.constraint.ConstraintLayout>
