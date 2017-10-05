@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ReLawAble.iml" filepath="$PROJECT_DIR$/ReLawAble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ReLawAble.iml" filepath="$PROJECT_DIR$/.idea/ReLawAble.iml" />
+      <module fileurl="file://C:\Users\Drjaatpc\AndroidStudioProjects\ReLawAble\ReLawAble.iml" filepath="C:\Users\Drjaatpc\AndroidStudioProjects\ReLawAble\ReLawAble.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Drjaatpc\AndroidStudioProjects\ReLawAble\app\app.iml" filepath="C:\Users\Drjaatpc\AndroidStudioProjects\ReLawAble\app\app.iml" />
     </modules>
   </component>
 </project>
