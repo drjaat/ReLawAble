@@ -39,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="19dp"
         android:ems="10"
+        android:maxLength="6"
         android:hint="Enter OTP"
         android:inputType="number"
         android:selectAllOnFocus="false"
