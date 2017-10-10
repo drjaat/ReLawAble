@@ -42,6 +42,7 @@
         android:layout_marginStart="10dp"
         android:fontFamily="monospace"
         android:popupBackground="@color/common_google_signin_btn_text_dark_default"
+        android:spinnerMode="dropdown"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="45sp"
