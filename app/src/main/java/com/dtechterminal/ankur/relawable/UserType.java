@@ -34,7 +34,10 @@ public class UserType extends AppCompatActivity {
                     Intent intent = new Intent(UserType.this,Client.class);
                     startActivity(intent);
                 }else if(lawyer.isChecked()){
-                    Toast.makeText(getApplicationContext(),"Lawyer hai tu",Toast.LENGTH_SHORT).show();
+                    dialog.setMessage("Loading.., please wait.");
+                    dialog.show();
+                    Intent intent = new Intent(UserType.this,Lawyer.class);
+                    startActivity(intent);
                 }else{
                     Toast.makeText(getApplicationContext(),"Select kar",Toast.LENGTH_SHORT).show();
                 }

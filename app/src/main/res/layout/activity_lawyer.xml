@@ -20,7 +20,7 @@
         android:id="@+id/lawyerName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="88dp"
+        android:layout_marginEnd="87dp"
         android:layout_marginTop="62dp"
         android:text="Name"
         android:textAlignment="center"
@@ -50,12 +50,12 @@
         style="@android:style/Widget.DeviceDefault.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
         android:layout_marginStart="9dp"
-        android:layout_marginTop="170dp"
         android:text="Change Profile"
         android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/lawerImage"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/fee"
+        app:layout_constraintStart_toStartOf="@+id/lawerImage" />
 
     <Button
         android:id="@+id/fee"
@@ -64,31 +64,31 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="23dp"
         android:layout_marginStart="42dp"
-        android:layout_marginTop="52dp"
+        android:onClick="updatefee"
         android:text="Update Fee"
         android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/updatefee"
         app:layout_constraintEnd_toStartOf="@+id/updatefee"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imagechange" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/updatefee"
         android:layout_width="0dp"
         android:layout_height="21dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginTop="284dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Enter New Fee"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/fee"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/fee"
-        app:layout_constraintTop_toTopOf="@+id/fee" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/amount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="88dp"
