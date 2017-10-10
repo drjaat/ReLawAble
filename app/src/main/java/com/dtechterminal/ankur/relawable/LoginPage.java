@@ -65,10 +65,10 @@ public class LoginPage extends AppCompatActivity {
         });
     }
     private void signIn() {
-        dialog.setMessage("Loading.., please wait.");
-        dialog.show();
+
         Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
         startActivityForResult(signInIntent, RC_SIGN_IN);
+
     }
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
