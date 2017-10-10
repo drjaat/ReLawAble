@@ -26,7 +26,8 @@
         <activity android:name=".OTP" />
         <activity android:name=".UserType" />
         <activity android:name=".Client" />
-        <activity android:name=".LawyerList"></activity>
+        <activity android:name=".LawyerList" />
+        <activity android:name=".Lawyer"></activity>
     </application>
 
 </manifest>
